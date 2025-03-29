@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Sephir';
-    src: url('../fonts/sephir/Sephir-Regular.otf') format('otf'),
-         url('../fonts/sephir/Sephir-Regular.otf') format('otff');
+    src: url('../fonts/sephir/Sephir-Regular.woff2') format('woff2'),
+         url('../fonts/sephir/Sephir-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
