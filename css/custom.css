@@ -27,7 +27,7 @@
     top: 0; left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(255,255,255,0) 60%, rgba(255,255,255,0.8) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 80%, rgba(255,255,255,0.8) 100%);
   }
   
   .hero-title {
@@ -109,14 +109,14 @@ body {
     margin-bottom: 10px;
     border: 3px solid #7520d0;
 }
-/*.section-padding {
+.section-padding {
     padding: 50px 0;
-}*/
+}
 
 
-.navigation {
+/* .navigation {
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 10;
-}
+} */
