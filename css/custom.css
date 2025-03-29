@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Sephir';
+    src: url('../fonts/sephir-regular.woff2') format('woff2'),
+         url('../fonts/sephir-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hero {
+    background: url('../img/2_front_format2_DEF22032025.png') no-repeat center center;
+    background-size: cover;
+    font-family: 'Sephir', serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: rgb(223, 196, 156);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: rgb(229, 229, 213);
+}
+
+.hero a.btn {
+    background-color: rgb(229, 229, 213);
+    color: rgb(223, 196, 156);
+    padding: 12px 24px;
+    font-family: 'Sephir', serif;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.hero a.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(223, 196, 156);
+}
