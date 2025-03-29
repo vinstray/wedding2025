@@ -1,14 +1,13 @@
 @font-face {
     font-family: 'Sephir';
     src: url('../fonts/sephir/Sephir-Regular.woff2') format('woff2'),
-         url('../fonts/sephir/Sephir-Regular.woff') format('woff');
+         url('../fonts/sephir/Sephir-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 .custom-hero {
-    background-image: url('../img/2_front_format2_DEF22032025.png');
+    background-image: url('../img/2hero-min.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +38,6 @@
     background-color: #DFC49C;
     color: white;
     border: none;
-    font-family: 'Sephir', serif
   }
   
   .btn-fill {
@@ -54,26 +52,49 @@
   }
 
 
-  .container {
-    background-color: rgba(223, 196, 156, 0.85); /* beige chiaro con opacità */
-    border-radius: 16px;
-    padding: 2rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
 
-  /* Eccezione: nessuno sfondo per il container dentro .hero */
-.hero .container {
-  background-color: transparent;
-  box-shadow: none;
-  padding: 0;
-}
-
-
-body {
+.body {
   background-image: url('img/background.png'); /* Inserisci un'immagine di tappeto in stile Il Grande Lebowski */
   background-size: cover;
   background-attachment: fixed;
-  /*font-family: 'Courier New', Courier, monospace;
-  color: #fff;*/
 
+}
+
+
+.container {
+  background-color: rgba(223, 196, 156, 0.60); /* beige chiaro con opacità */
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+/* .container {
+  background: rgba(193, 189, 189, 0.9);
+  color: #000000;
+  padding: 20px;
+  border-radius: 15px;
+  text-shadow: 0.5px 0.5px #ffffff;
+} */
+/* .header {
+    font-family: 'Impact', sans-serif;
+    color: #ffcc00;
+    text-shadow: 2px 2px #000;
+}*/
+.contact-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #7520d0;
+}
+/*.section-padding {
+    padding: 50px 0;
+}*/
+
+
+
+.bowling-pin {
+    width: 50px;
+    height: auto;
 }
