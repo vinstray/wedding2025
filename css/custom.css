@@ -57,14 +57,19 @@
     font-size: 2rem;
   }
 
-
+html, body {
+  height: 100%;
+}
 
 body {
   background-image: url('../img/background.png'); /* Inserisci un'immagine di tappeto in stile Il Grande Lebowski */
   background-size: cover;
   background-attachment: fixed;
-
+  background-repeat: no-repeat;
+  background-position: center center;
 }
+
+
 
 
 .container {
