@@ -7,7 +7,7 @@
 }
 
 .custom-hero {
-    background-image: url('../img/2hero-min.jpg');
+    background-image: url('../img/hero-min.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,6 +24,12 @@
     font-size: 3rem;
     color: #000;
     font-family: 'Sephir', serif
+  }
+
+  .hero .container {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
   }
   
   .hero .intro {
@@ -53,7 +59,7 @@
 
 
 
-.body {
+body {
   background-image: url('img/background.png'); /* Inserisci un'immagine di tappeto in stile Il Grande Lebowski */
   background-size: cover;
   background-attachment: fixed;
