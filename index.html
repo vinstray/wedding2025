@@ -1,4 +1,4 @@
-<!doctype html>
+"<!doctype html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>
@@ -432,51 +432,52 @@
             <div class="col-md-6 col-md-offset-3">
                 <h3>Che cosa aspetti?</h3>
                 <p>Aprezzeremmo molto una vostra conferma entro il 1 luglio '25</p>
-                <form id="rsvp-form" class="rsvp-form"
-                      action=""
-                      method="POST">
+                <form action="https://formsubmit.co/vincenzo.dipietra@gmail.com" method="POST" id="rsvp-form" class="rsvp-form">
+                    <!-- Hidden configuration fields -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Nuovo RSVP dal sito di matrimonio!">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_autoresponse" value="Grazie per aver confermato la tua presenza!">
+                
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
-                                                                     required>
+                                <i class="fa fa-envelope"></i>
+                                <input type="email" name="email" class="" placeholder="Your email" required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your name"
-                                                                 required>
+                                <i class="fa fa-user"></i>
+                                <input name="name" class="" placeholder="Your name" required>
                             </div>
                         </div>
                     </div>
+                
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                                                  max="4"
-                                                                  placeholder="Husband/Wife or kids"
-                                                                  required>
+                                <i class="fa fa-users"></i>
+                                <input type="number" name="extras" class="" min="0" max="4" placeholder="Husband/Wife or kids" required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
-                                                                class="" min="0"
-                                                                placeholder="Invite code"
-                                                                required>
+                                <i class="fa fa-leaf"></i>
+                                <input type="text" name="allergies" class="" placeholder="Allergies (optional)">
                             </div>
                         </div>
                     </div>
+                
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
-                    <button class="btn-fill rsvp-btn">
-                        Yes,
-                        that's me!
+                
+                    <button class="btn-fill rsvp-btn" type="submit">
+                        Yes, that's me!
                     </button>
                 </form>
+                
             </div>
         </div>
     </div>
