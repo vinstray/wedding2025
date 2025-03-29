@@ -1,9 +1,10 @@
 @font-face {
     font-family: 'Sephir';
     src: url('../fonts/sephir/Sephir-Regular.woff2') format('woff2'),
-         url('../fonts/sephir/Sephir-Regular.woff2') format('woff2');
+         url('../fonts/sephir/Sephir-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 .custom-hero {
@@ -65,4 +66,14 @@
   background-color: transparent;
   box-shadow: none;
   padding: 0;
+}
+
+
+body {
+  background-image: url('img/background.png'); /* Inserisci un'immagine di tappeto in stile Il Grande Lebowski */
+  background-size: cover;
+  background-attachment: fixed;
+  /*font-family: 'Courier New', Courier, monospace;
+  color: #fff;*/
+
 }
