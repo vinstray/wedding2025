@@ -23,12 +23,14 @@
   .hero-title {
     font-size: 3rem;
     color: #000;
+    font-family: 'Sephir', serif
   }
   
   .hero .intro {
     font-size: 1.5rem;
     margin-top: 1rem;
     color: #333;
+    font-family: 'Sephir', serif
   }
   
   /* Pulsanti personalizzati */
@@ -36,6 +38,7 @@
     background-color: #DFC49C;
     color: white;
     border: none;
+    font-family: 'Sephir', serif
   }
   
   .btn-fill {
