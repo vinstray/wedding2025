@@ -6,38 +6,45 @@
     font-style: normal;
 }
 
-.hero {
-    background: url('../img/2_front_format2_DEF22032025.png') no-repeat center center;
+.custom-hero {
+    background-image: url('../img/2_front_format2_DEF22032025.png');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000; /* testo scuro per contrastare il fondo chiaro */
     font-family: 'Sephir', serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 100px 20px;
-}
-
-.hero h1 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .hero-title {
     font-size: 3rem;
-    color: rgb(223, 196, 156);
-}
-
-.hero p {
+    color: #000;
+  }
+  
+  .hero .intro {
     font-size: 1.5rem;
-    color: rgb(229, 229, 213);
-}
-
-.hero a.btn {
-    background-color: rgb(229, 229, 213);
-    color: rgb(223, 196, 156);
-    padding: 12px 24px;
-    font-family: 'Sephir', serif;
-    text-decoration: none;
-    border-radius: 8px;
-    margin-top: 20px;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-}
-
-.hero a.btn:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(223, 196, 156);
-}
+    margin-top: 1rem;
+    color: #333;
+  }
+  
+  /* Pulsanti personalizzati */
+  .btn-accent {
+    background-color: #DFC49C;
+    color: white;
+    border: none;
+  }
+  
+  .btn-fill {
+    background-color: #E5E5D5;
+    color: #000;
+    border: none;
+  }
+  
+  .down-arrow i {
+    color: #000;
+    font-size: 2rem;
+  }
