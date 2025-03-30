@@ -94,7 +94,7 @@ section.rsvp {
 section.features,
 section.events,
 section.blog {
-  background: #f8f9fd;
+  background: #f8f9fd00;
 }
 .group:after {
   content: "";
