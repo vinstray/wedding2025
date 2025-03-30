@@ -114,9 +114,7 @@ body {
 }
 
 
-/* .navigation {
-  position: absolute;
-  top: 0;
-  width: 100%;
+.navigation {
+  position: relative;
   z-index: 10;
-} */
+} 
