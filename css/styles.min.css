@@ -121,12 +121,13 @@ a:focus {
   color: #d3b56a;
   text-decoration: none;
 }
-/* body {
-  font-family: "Open Sans", sans-serif;
+body {
+  font-family: 'Sephir', serif;
+  /* font-family: "Open Sans", sans-serif; */
   font-weight: 300;
   color: rgba(28, 54, 83, 0.6);
   -webkit-text-size-adjust: 100%;
-} */
+}
 *:focus {
   outline: none !important;
 }
