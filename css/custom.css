@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Sephir';
     src: url('../fonts/sephir/Sephir-Regular.woff2') format('woff2'),
          url('../fonts/sephir/Sephir-Regular.woff2') format('woff2');
@@ -119,4 +119,4 @@ body {
   position: fixed;
   width: 100%;
   z-index: 999;
-}
+} */
