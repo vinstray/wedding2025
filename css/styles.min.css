@@ -107,20 +107,28 @@ section.blog {
 .no-margin {
   margin: 0;
 }
+
+
 a {
-  color: #e8ca6f;
+  color: #8B5E3C; /* marrone caldo */
+  font-weight: 600;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
   -webkit-transition-duration: 200ms;
   transition-duration: 200ms;
   -webkit-transition-property: color, border-color, background-color;
   transition-property: color, border-color, background-color;
+  text-shadow: 0.5px 0.5px #fff; /* migliora la leggibilità su sfondi chiari */
+  transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 a:hover,
 a:focus {
-  color: #d3b56a;
-  text-decoration: none;
+  color: #A87D4A; /* tonalità più viva al passaggio */
+  text-shadow: 0.5px 0.5px #e5e5d5;
+  text-decoration: underline;
+  font-weight: 600;
 }
+
 body {
   font-family: 'Sephir', serif;
   /* font-family: "Open Sans", sans-serif; */
